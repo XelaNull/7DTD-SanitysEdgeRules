@@ -1,0 +1,55 @@
+<configs>
+  
+  <remove xpath="/windows/window[@name='ingameMenu']" />
+
+	<append xpath="/windows">
+    
+    <window name="ingameMenu" anchor="LeftTop" pos="20,-20" width="700" controller="InGameMenuWindow" cursor_area="false">
+      <panel name="content" pos="0,0" height="200" width="200" depth="1" pivot="center" disableautobackground="true" >
+        <grid name="buttons" pos="0, -0" cols="1" width="250" cell_width="250" cell_height="56" arrangement="vertical" repeat_content="false" >
+          <simplebutton name="btnInvite" depth="3" width="250" height="46" caption_key="xuiMenuInvite" font_size="40" />
+          <simplebutton name="btnOptions" depth="3" width="250" height="46" caption_key="xuiMenuOptions" font_size="40" />
+          <simplebutton name="btnHelp" depth="3" width="250" height="46" caption_key="xuiMenuHelp" font_size="40" />
+          <simplebutton name="btnSave" depth="3" width="250" height="46" caption_key="xuiMenuSave" font_size="40" />
+          <simplebutton name="btnExit" depth="3" width="250" height="46" caption_key="xuiMenuExit" font_size="40" />
+          <simplebutton name="btnExportPrefab" depth="3" width="250" height="46" caption_key="xuiMenuExportPrefab" font_size="40" />
+          <simplebutton name="btnTpPoi" depth="3" width="250" height="46" caption_key="xuiMenuTeleportPoiButton" font_size="40" />
+        </grid>      
+      </panel>
+      
+      <panel name="content" pos="400,0" height="850" width="950" depth="1" pivot="center" disableautobackground="true" >
+        <sprite depth="2" name="border" sprite="menu_empty3px" pos="0,0" height="850" width="950" color="0,0,255" type="sliced" fillcenter="false" globalopacity="true" globalopacitymod="0.9" />
+        <sprite depth="1" name="backgroundMain" sprite="menu_empty3px" pos="2,-2" height="846" width="946" color="[black]" type="sliced" fillcenter="true" globalopacity="false" globalopacitymod="1.3" />
+        <grid pos="15,-15" rows="0" cell_width="950" cell_height="32" repeat_content="false" arrangement="vertical" >
+          <label depth="3" font_size="40" justify="center" text=". . . [e3d78a]S A N I T Y ' S  E D G E  [ P v E ][-] . . ." />
+          <label text=" " />
+          <label depth="3" text="[BDBDBD]As you step closer to your [e3d78a]Sanity’s Edge[-], you may like to know more of what you are getting into." />
+          <label text=" " />
+          <label depth="3" text="[BDBDBD]This server boasts over [e3d78a]60 mods[-] including:" />
+          <label depth="3" font_size="23" justify="center" text="[BDBDBD][e3d78a]White River - Tools of Citizenship[-] | Origin UI | 60-Slot Bag | [e3d78a]Zombie Lootbag Increased[-] | Faster Bellows  " />
+          <label depth="3" font_size="23" justify="center" text="[BDBDBD]Wrench-able Solar Panels, Battery Banks, and Generators | [e3d78a]1-Day Trader Refresh[-] | Terrain Based Movement Speed  " />
+          <label depth="3" font_size="23" justify="center" text="[BDBDBD]Steel Trussing Sheet | [e3d78a]Banshee Screamer Zombie[-] | Large Stack Sizes | [e3d78a]Random Zombie Getter Upper[-]  " />
+          <label depth="3" font_size="23" justify="center" text="[BDBDBD]Dr. Prepper Drink | Punishing Weather | [e3d78a]Trash and Nest Cleanup[-] | [e3d78a]Item Combiner[-] in Workbench " />
+          <label font_size="23" text=" " />
+          <label depth="3" font_size="23" text="[BDBDBD]This server has the following settings worth noting:" />
+          <label depth="3" font_size="23" justify="center" text="[BDBDBD][e3d78a]Unlimited Land Claim Durability[-] | Large Land Claim Size | Drop Backpack on Death | Airdrops Marked | 7Day +/- 3" />
+          <label font_size="23" text=" " />
+          <label depth="3" font_size="23" text="[BDBDBD]This server has a [e3d78a]community horde base with lobby[-] and free resources you can help yourself to." />
+          <label depth="3" font_size="23" text="[BDBDBD]Be kind and don’t take all of anything. [e3d78a]/lobby[-] to teleport there." />
+          <label font_size="23" text=" " />
+          <label depth="3" font_size="23" text="[BDBDBD]Craft a [e3d78a]+Declaration of Citizenship[-] to become a citizen and obtain quests for named Tools, Weapons, and Armor.  " />
+          <label depth="3" font_size="23" text="[BDBDBD]([e3d78a]Read[-]) a Magazine to [FFFFFF]gain a Skillpoint[-], ([e3d78a]Use[-]) a Magazine to learn it.  " />
+          <label depth="3" font_size="23" text="[BDBDBD]Press ([e3d78a]E[-]) to pickup plants or hit to use Living off the Land.  " />
+          <label depth="3" font_size="23" text="[BDBDBD][FFFFFF]Commands:[-] [e3d78a]/sethome[-] to set your teleport home; [e3d78a]/home[-] to return. Other Commands: [e3d78a]/commands[-], [e3d78a]/gimme[-], [e3d78a]/wallet[-]  " />
+          <label font_size="23" text=" " />
+          <label depth="3" font_size="23" text="[BDBDBD]The [FF0000]Four RULES[-] on this Server:" />
+          <label depth="3" font_size="23" color="189,189,189"  text=" 1. Be respectful." />
+          <label depth="3" font_size="23" color="189,189,189"  text=" 2. No griefing of any kind will be tolerated." />
+          <label depth="3" font_size="23" color="189,189,189"  text=" 3. Looting other players’ bags not allowed." />
+          <label depth="3" font_size="23" color="189,189,189"  text=" 4. Glitching, cheating, and using exploits are not permitted." />
+        </grid>
+      </panel>
+    </window>
+    
+  </append>
+</configs>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Sanity's Edge ServerRules" />
+		<Description value="Server Rules page on Esc menu for Sanity's Edge" />
+		<Author value="ShoudenKalferas and AeyviKalferas"/>
+		<Version value="A19_1.0" />
+		<Website value="https://github.com/XelaNull/7dtd-FixedModlets.git" />
+	</ModInfo>
+</xml>
