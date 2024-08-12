@@ -3,8 +3,22 @@
   <remove xpath="/windows/window[@name='ingameMenu']" />
 
 	<append xpath="/windows">
+<!-- Modified Origin UI:
+<window name="ingameMenu" anchor="LeftTop" pos="20,-60" width="250" height="200" controller="InGameMenuWindow" cursor_area="true">
+  <grid name="buttons" pos="0, -0" cols="1" width="250" cell_width="250" cell_height="56" arrangement="vertical" repeat_content="false" >
+    <simplebutton name="btnInvite" depth="3" width="250" height="46" caption_key="xuiMenuInvite" font_size="40" />
+    <simplebutton name="btnOptions" depth="3" width="250" height="46" caption_key="xuiMenuOptions" font_size="40" />
+    <simplebutton name="btnHelp" depth="3" width="250" height="46" caption_key="xuiMenuHelp" font_size="40" />
+    <simplebutton name="btnSave" depth="3" width="250" height="46" caption_key="xuiMenuSave" font_size="40" />
+    <simplebutton name="btnExit" depth="3" width="250" height="46" caption_key="xuiMenuExit" font_size="40" />
+    <simplebutton name="btnExportPrefab" depth="3" width="250" height="46" caption_key="xuiMenuExportPrefab" font_size="40" />
+    <simplebutton name="btnTpPoi" depth="3" width="250" height="46" caption_key="xuiMenuTeleportPoiButton" font_size="40" />
+  </grid>
+</window>
+-->
 
-    <window name="ingameMenu" anchor="LeftTop" pos="70,-20" width="700" controller="InGameMenuWindow" cursor_area="false">
+
+    <window name="ingameMenu" anchor="LeftTop" pos="20,-60" width="700" controller="InGameMenuWindow" cursor_area="false">
       <panel name="content" pos="0,0" height="200" width="200" depth="1" pivot="center" disableautobackground="true" >
         <grid name="buttons" pos="0, -0" cols="1" width="250" cell_width="250" cell_height="56" arrangement="vertical" repeat_content="false" >
           <simplebutton name="btnInvite" depth="3" width="250" height="46" caption_key="xuiMenuInvite" font_size="40" />
